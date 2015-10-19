@@ -10,6 +10,7 @@ public class FirstApplet extends javax.swing.JApplet{
 		setSize(250,80);
 	}
 	
+	
 	public void paint(Graphics g){
 		g.drawString("Applet started", 20, 15);
 		g.drawString(calendar.getTime().toString(), 20, 35);
